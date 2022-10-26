@@ -1,6 +1,9 @@
 # Protest-O-Matic
 A bookmarklet that lets you throw foods on NFTs for your protest.
 
+![Screenshot](
+https://raw.githubusercontent.com/redpepperdev/protest-o-matic/dd9499e7098a4a20b2a272adccf6c1624b184684/screenshot.jpg)
+
 ### Install
 Go to your favorite browser's bookmark manager and create a new bookmark. Name it Protest-O-Matic, or whatever, and paste the very poorly written code below into the 'address' field. When you're ready to make a mess at your local NFT art gallery just click your bookmarklet and boom! Protest! 
 
