@@ -4,9 +4,9 @@ A bookmarklet that lets you throw foods on NFTs
 ### Install
 Go to your favorite browser's bookmark manager and create a new bookmark. Name it Protest-O-Matic, or whatever, and paste the very poorly written code below into the 'address' field. When you're ready to make a mess at your local NFT art gallery just click your bookmarklet and boom! Protest! 
 
-Don't forget your super glue.
+DON'T FORGET YOUR SUPER GLUE!
 
-`
+```
 javascript:(function(){
     var glued = 0;
     var count = 0;
@@ -45,4 +45,4 @@ javascript:(function(){
     });
 
 })();
-`
+```
