@@ -1,13 +1,11 @@
 # Protest-O-Matic
-A bookmarklet that lets you throw foods on NFTs for your protest.
+Throw food on priceless NFTs for your protest.
 
 ![Screenshot](
 https://raw.githubusercontent.com/redpepperdev/protest-o-matic/dd9499e7098a4a20b2a272adccf6c1624b184684/screenshot.jpg)
 
 ### Install
-Go to your favorite browser's bookmark manager and create a new bookmark. Name it Protest-O-Matic, or whatever, and paste the very poorly written code below into the 'address' field. When you're ready to make a mess at your local NFT art gallery just click your bookmarklet and boom! Protest! 
-
-DON'T FORGET YOUR SUPER GLUE!
+Go to your browser's bookmark manager and create a new bookmark. Name it "Protest-O-Matic", or whatever, and paste the code below into the "address" field. When you're ready to make a mess at your local NFT art gallery just click your bookmarklet and boom! Protest! 
 
 ```
 javascript:(function(){
@@ -17,7 +15,6 @@ javascript:(function(){
     var i = 'potato.gif';
     var ts, x, y, p, val, hand, messy;
     function clicky(e){
-        console.log('clicky');
         if(!glued && count > 4){
             document.body.innerHTML += '<img src="https://redpepper.land/wp-content/uploads/2022/10/hand.gif" style="position: fixed; right: 10px; top: 10px; z-index: 100001; pointer-events:none;">';
             glued = true;
@@ -40,7 +37,6 @@ javascript:(function(){
     document.body.innerHTML += '<select id="pick" style="position: fixed; right: 10px; bottom: 10px; z-index: 100002; font-size: 20px; padding:10px 20px; border: 1px solid black; background:white;font-family: Comic Sans MS; box-sizing:border-box;"><option value="potato">Liquified Buttery Mashed Potatoes</option><option value="pie">Pie</option></select>';
     document.getElementById('pick').addEventListener('change', function() {
         p = this.value;
-        console.log(p);
         if(p=='potato'){
             i = 'potato.gif';
             o = 0.8;
@@ -51,3 +47,9 @@ javascript:(function(){
     });
 })();
 ```
+
+### !Important
+DON'T FORGET YOUR SUPER GLUE!
+
+### P.S.
+I'm not a good code writing person so if you can make this thing better pls send one of those pull requests and I'll probably add it if I remember how :/
