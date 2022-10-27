@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/redpepperdev/protest-o-matic/dd9499e7098a4a20b
 ### Install
 Go to your browser's bookmark manager and create a new bookmark. Name it "Protest-O-Matic", or whatever, and paste the code below into the "address" field. When you're ready to make a mess at your local NFT art gallery just click your bookmarklet and boom! Protest! 
 
-```
+```js
 javascript:(function(){
     var glued = 0;
     var count = 0;
